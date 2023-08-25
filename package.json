@@ -1,15 +1,13 @@
 {
-  "name": "template",
+  "name": "NestedMap",
   "version": "0.1.0",
-  "description": "",
+  "description": "A Map whose keys are arrays",
   "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "src/NestedMap.js",
   "author": "Damien Cassou",
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "scripts": {
+    "test": "node --test",
     "lint:js": "eslint ."
   },
   "devDependencies": {
